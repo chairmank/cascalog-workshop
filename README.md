@@ -68,6 +68,12 @@ follow these instructions for a minimal setup.
 If you can run this example job, then your Hadoop setup is probably
 ready for this workshop.
 
+## Credits
+
+Sam Ritchie generously granted permission to use material from his
+[cascalog-koans](https://github.com/sritchie/cascalog-koans) project.
+Thanks Sam!
+
 ## License
 
 Copyright © 2013 [Steve M. Kim](https://github.com/chairmanK)
