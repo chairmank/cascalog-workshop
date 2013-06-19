@@ -9,4 +9,7 @@
   :profiles {:dev {:dependencies [[org.apache.hadoop/hadoop-core "0.20.2-dev"]
                                   [lein-midje "3.0.1"]
                                   [cascalog/midje-cascalog "1.10.1"]]}}
-  :min-lein-version "2.0.0")
+  :min-lein-version "2.0.0"
+  ; AOT compilation is required to avoid classloader errors with Hadoop.
+  :aot [cascalog-workshop.demo]
+  :uberjar-name "uberjar.jar")
